@@ -45,6 +45,11 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="MoverParaDireita.cs" />
+    <Compile Include="Mover.cs" />
+    <Compile Include="MoverParaEsquerda.cs" />
+    <Compile Include="MoverParaFrente.cs" />
+    <Compile Include="MovimentarSonda.cs" />
     <Compile Include="Sonda.cs" />
     <Compile Include="Form1.cs">
       <SubType>Form</SubType>

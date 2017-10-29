@@ -8,14 +8,30 @@ namespace CapptaTesteProgramacao
 {
     class Sonda
     {
-       private string posicaoInicial;
-        private string posicaoFinal { get; set; }
-       private string nome;
+       public string xInicial { get;}
+       public string yInicial { get; }
+       public string direcao { get; set; }
 
-        public Sonda(string posicaoInicial, string nome)
+       
+
+       public string xFinal { get; set; }
+       public string yFinal { get; set; }
+       public string direcaoFinal { get; set; }
+      
+       public string nome { get; set; }
+
+        public Sonda(string xInicial, string yInicial,string direcao, string nome)
         {
-            this.posicaoInicial = posicaoInicial;
-            this.nome = nome;
+            this.xInicial = xInicial;
+            this.yInicial = yInicial;
+            this.direcao = direcao;
+
+            this.xFinal = xInicial;
+            this.yFinal = yInicial;
+            this.direcaoFinal = direcao;
+            this.nome = nome;    
         }
+
+
     }
 }
